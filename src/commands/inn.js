@@ -46,7 +46,8 @@ function getNextActiveHour(currentHour) {
  * Get message to send when
  * inn command is invoked
  * 
- * @param {number} currentHour 
+ * @param {number} currentHour
+ * @param {number} currentMinutes
  */
 export function getInnMessage(currentHour,  currentMinutes) {
   const activeCity = buffSchedule[currentHour]
