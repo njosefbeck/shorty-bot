@@ -20,8 +20,7 @@
   "dependencies": {
     "dayjs": "1.9.7",
     "discord.js": "12.5.1",
-    "dotenv": "8.2.0",
-    "enmap": "5.8.2"
+    "dotenv": "8.2.0"
   },
   "devDependencies": {
     "jest": "26.6.3"
