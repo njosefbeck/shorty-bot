@@ -20,7 +20,7 @@ function getMinutesString(minutes) {
 }
 
 function getHoursString(hours) {
-  return hours === 1 ? `**${hours} hour` : `**${hours} hours**`
+  return hours === 1 ? `**${hours} hour**` : `**${hours} hours**`
 }
 
 function getPossibleHours() {
