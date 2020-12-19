@@ -1,0 +1,29 @@
+{
+  "name": "shorty-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for kRO Zero",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config ./src/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Criatura Academy <https://criatura-academy.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "1.9.7",
+    "discord.js": "12.5.1",
+    "dotenv": "8.2.0",
+    "enmap": "5.8.2"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
